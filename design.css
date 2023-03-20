@@ -4,6 +4,55 @@
 .container{
     display: flex;
 }
+.logincontainer{
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.logincard{
+    box-shadow: 4px 4px 10px rgb(141, 139, 139);
+    padding: 30px;
+    height: auto!important;
+}
+.loginform{
+    width: 25%;
+}
+.logincard>h2{
+    font-family: sans-serif;
+    color:#c0392b;
+    text-transform: uppercase;
+    border-bottom: 2px solid #e74c3c;
+    margin-bottom: 20px;
+}
+.card>form{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.form-content{
+    display: flex;
+    flex-direction: column;
+}
+.form-content>input{
+    flex:1;
+    padding: 10px 5px;
+    border:1px solid #c0392b;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.form-content>label{
+    color: #c0392b;
+    font-family:sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+.btn{
+    color:white;
+    background-color: #c0392b;
+}
+.btn:hover{
+    background-color: #e74c3c;
+}
 .content{
     flex:10;
     /* background-color: pink; */
